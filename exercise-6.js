@@ -6,7 +6,7 @@ function angkaPalindrome(num) {
     if (num < 9){
         return num+1
       } else {
-        for(i = num ; i < 2000  ; i++) {
+        for(var i = num ; i < 2000  ; i++) {
           var j = i.toString().split("").reverse().join("");
           
           if (i == j) {

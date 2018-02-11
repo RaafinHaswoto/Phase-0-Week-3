@@ -1,18 +1,18 @@
 // Kamis - More Logic Challenges
 
-function perkalianUnik(arr){
-             
-    var total =  1;
-    var result = [];
-    for(var i=1; i<arr.length; i++){                  
-       total *= arr[i];
-       for(var j=0; j< arr[i].length; j++){
-        result.push(total(arr[i]))
-       }
-        
-         }
-          return total;
-       }
+function perkalianUnik(arr) {
+  var hasil=[];
+  for(var a=0;a<arr.length;a++){
+    var angka=1;
+    for(var b=0;b<arr.length;b++){
+      if(a !== b){
+        angka *= arr[b];
+      }
+    }
+    hasil.push(angka);
+  }
+  return hasil;
+}
      
 
   // TEST CASES

@@ -1,9 +1,9 @@
 // Kamis - More Logic Challenges
 
 function tentukanDeretAritmatika(arr) {
-    var selisih = arr[1] - arr[0]
+    var hasil = arr[1] - arr[0]
     for (var i = 1; i < arr.length-1; i++) {
-      if (arr[i] !== arr[i-1]+selisih) {
+      if (arr[i] !== arr[i-1]+hasil) {
         return false
       }
     }
