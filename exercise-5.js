@@ -10,8 +10,9 @@ function palindrome(kata) {
    } else 
    return false
   }
-   
   
+  
+
   // TEST CASES
   console.log(palindrome('katak')); // true
   console.log(palindrome('blanket')); // false
